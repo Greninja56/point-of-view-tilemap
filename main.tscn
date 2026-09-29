@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://lcnrsxgu0bmd"]
+
+[ext_resource type="PackedScene" uid="uid://b3fepew17ebnx" path="res://tile_map_layer.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://h888c2sdy8qx" path="res://player.tscn" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://cqw3m1sko3nlf" path="res://player.gd" id="3_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=1629683244]
+
+[node name="TileMapLayer" parent="." unique_id=375058828 instance=ExtResource("1_ig7tw")]
+
+[node name="Player" parent="." unique_id=8172433 instance=ExtResource("2_0xm2m")]
+position = Vector2(876, 602)
+script = ExtResource("3_h2yge")
