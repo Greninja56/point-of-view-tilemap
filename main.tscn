@@ -11,3 +11,18 @@
 [node name="Player" parent="." unique_id=8172433 instance=ExtResource("2_0xm2m")]
 position = Vector2(876, 602)
 script = ExtResource("3_h2yge")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1848380167]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1308039294]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -11.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 20
+text = "Press shift to go through doors(white)"
+horizontal_alignment = 1
+vertical_alignment = 2

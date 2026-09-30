@@ -6,6 +6,7 @@
 size = Vector2(8, 8)
 
 [node name="Player" type="CharacterBody2D" unique_id=8172433]
+collision_mask = 3
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1553894470]
 texture = ExtResource("1_4flbx")
